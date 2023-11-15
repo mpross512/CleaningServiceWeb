@@ -1,7 +1,7 @@
 function Home() {
     return (
         <>
-            <h1>Mike Ross Cleaning Services</h1>
+            <h1>Beyond Clean Cleaning Services</h1>
         </>
     )
 }
