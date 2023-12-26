@@ -27,7 +27,7 @@ function Navbar() {
                 </button>
 
                 <div className="flex">
-                    <Link to={'quote'} className={`rounded-lg hover:bg-gray-800 hover:text-white px-3 py-2 ${pathName == '/quote' ? 'text-white bg-gray-950' : ''}`}>Get a Quote</Link>
+                    <Link to={'quote'} className={`rounded-lg bg-sky-500 hover:bg-sky-400 text-white px-3 py-2 ${pathName == '/quote' ? 'text-white bg-sky-500' : ''}`}>Get a Quote</Link>
                 </div>
             </div>
 
@@ -47,7 +47,7 @@ function Navbar() {
                     <Link to={'contact'} className={`rounded-lg hover:bg-gray-800 hover:text-white px-3 py-2 ${pathName == '/contact' ? 'text-white bg-gray-950' : ''}`}>Contact</Link>
                 </div>
                 <div className="flex">
-                    <Link to={'quote'} className={`rounded-lg hover:bg-gray-800 hover:text-white px-3 py-2 ${pathName == '/quote' ? 'text-white bg-gray-950' : ''}`}>Get a Quote</Link>
+                    <Link to={'quote'} className={`rounded-lg bg-sky-500 hover:bg-sky-400 text-white px-3 py-2 ${pathName == '/quote' ? 'text-white bg-sky-500' : ''}`}>Get a Quote</Link>
                 </div>
             </div>
 
