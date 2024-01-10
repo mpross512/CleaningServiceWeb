@@ -1,0 +1,13 @@
+input {
+    @apply border rounded-md !p-2 max-w-sm;
+    appearance: none
+}
+
+.slider::-webkit-slider-thumb {
+    @apply bg-sky-500 cursor-pointer h-6 w-6 rounded-full;
+    appearance: none;
+}
+
+label {
+    @apply flex flex-col
+}
